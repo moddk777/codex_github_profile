@@ -36,12 +36,11 @@ python3 -m http.server 8080
 - `EN` 클릭 시 전체 섹션이 영문으로 전환되는지
 - 새로고침 후 마지막 선택 언어가 유지되는지
 
-## GitHub Pages Deploy (Project Page)
-1. GitHub 저장소에 코드 푸시
-2. 저장소 `Settings > Pages` 이동
-3. `Build and deployment`에서 `Deploy from a branch` 선택
-4. 브랜치 `main` / 폴더 `/(root)` 선택 후 저장
-5. 배포 URL 확인: `https://<github-username>.github.io/<repo-name>/`
+## GitHub Pages Deploy (GitHub Actions)
+1. 저장소 `Settings > Pages`에서 `Source`를 `GitHub Actions`로 설정
+2. 이 저장소의 `.github/workflows/deploy-pages.yml`이 `main` push 시 자동 배포 수행
+3. `Actions` 탭에서 `Deploy GitHub Pages` 워크플로 성공 여부 확인
+4. 배포 URL 확인: `https://<github-username>.github.io/<repo-name>/`
 
 ## Content Update Guide
 - 프로필 정보: `content.js > profile`
