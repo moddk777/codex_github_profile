@@ -1,12 +1,12 @@
 const CONTENT = {
   ko: {
     profile: {
-      name: "홍길동",
+      name: "오현무",
       role: "Frontend Developer",
       intro: "사용자 경험과 제품 임팩트를 연결하는 웹 프론트엔드 개발자입니다.",
     },
     about: {
-      body: "문제를 빠르게 실험하고 측정 가능한 결과로 연결하는 데 집중합니다. 팀 협업에서는 명확한 커뮤니케이션과 문서화를 중요하게 생각합니다.",
+      body: "한국외국어대학교 재학 중이며, 1전공은 GBT학부(Global Business & Technology Department), 부전공은 기후변화융합학부입니다.",
     },
     experience: [
       {
@@ -51,7 +51,7 @@ const CONTENT = {
       linkedin: "https://www.linkedin.com/in/your-id",
     },
     ui: {
-      pageTitle: "홍길동 | 포트폴리오",
+      pageTitle: "오현무 | 포트폴리오",
       eyebrow: "PORTFOLIO",
       navAbout: "소개",
       navExperience: "이력",
@@ -69,17 +69,17 @@ const CONTENT = {
       projectPeriod: "기간",
       projectTech: "기술",
       projectLink: "프로젝트 링크",
-      footer: "2026 Hong Gil-dong. Built for GitHub Pages.",
+      footer: "2026 OH HYUNMOO. Built for GitHub Pages.",
     },
   },
   en: {
     profile: {
-      name: "Hong Gil-dong",
+      name: "OH HYUNMOO",
       role: "Frontend Developer",
       intro: "I build web products that connect user experience to measurable business impact.",
     },
     about: {
-      body: "I focus on fast iteration, measurable outcomes, and reliable collaboration. I value clear communication and practical documentation in teams.",
+      body: "I study at Hankuk University of Foreign Studies. My primary major is the Global Business & Technology Department (GBT), and my minor is the Department of Climate Change Convergence.",
     },
     experience: [
       {
@@ -124,7 +124,7 @@ const CONTENT = {
       linkedin: "https://www.linkedin.com/in/your-id",
     },
     ui: {
-      pageTitle: "Hong Gil-dong | Portfolio",
+      pageTitle: "OH HYUNMOO | Portfolio",
       eyebrow: "PORTFOLIO",
       navAbout: "About",
       navExperience: "Experience",
@@ -142,7 +142,7 @@ const CONTENT = {
       projectPeriod: "Period",
       projectTech: "Tech",
       projectLink: "Project Link",
-      footer: "2026 Hong Gil-dong. Built for GitHub Pages.",
+      footer: "2026 OH HYUNMOO. Built for GitHub Pages.",
     },
   },
 };
