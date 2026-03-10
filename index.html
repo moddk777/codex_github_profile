@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="GitHub Pages로 배포하는 한/영 이중언어 포트폴리오 템플릿"
+    />
+    <title data-i18n="ui.pageTitle">홍길동 | 포트폴리오</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&family=Noto+Sans+KR:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a href="#top" class="brand">HM</a>
+
+      <nav class="site-nav" aria-label="Primary">
+        <a href="#about" data-i18n="ui.navAbout">소개</a>
+        <a href="#experience" data-i18n="ui.navExperience">이력</a>
+        <a href="#projects" data-i18n="ui.navProjects">프로젝트</a>
+        <a href="#contact" data-i18n="ui.navContact">연락</a>
+      </nav>
+
+      <div class="lang-toggle" role="group" aria-label="Language selector">
+        <button type="button" class="lang-btn is-active" data-lang="ko" aria-pressed="true">
+          KO
+        </button>
+        <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+    </header>
+
+    <main id="top" class="layout">
+      <section class="hero reveal">
+        <p class="eyebrow" data-i18n="ui.eyebrow">PORTFOLIO</p>
+        <h1 data-i18n="profile.name">홍길동</h1>
+        <p class="hero-role" data-i18n="profile.role">Frontend Developer</p>
+        <p class="hero-intro" data-i18n="profile.intro">
+          사용자 경험과 제품 임팩트를 연결하는 웹 프론트엔드 개발자입니다.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn primary" data-i18n="ui.ctaProjects">프로젝트 보기</a>
+          <a href="#contact" class="btn ghost" data-i18n="ui.ctaContact">연락하기</a>
+        </div>
+      </section>
+
+      <section id="about" class="panel reveal">
+        <h2 data-i18n="ui.sectionAbout">소개</h2>
+        <p data-i18n="about.body">
+          제품 관점에서 문제를 정의하고, 데이터와 피드백으로 개선하는 개발 방식을 선호합니다.
+        </p>
+      </section>
+
+      <section id="experience" class="panel reveal">
+        <h2 data-i18n="ui.sectionExperience">이력</h2>
+        <div id="experience-list" class="experience-list"></div>
+      </section>
+
+      <section id="projects" class="panel reveal">
+        <div class="section-head">
+          <h2 data-i18n="ui.sectionProjects">프로젝트</h2>
+          <p data-i18n="ui.projectsLead">문제를 해결한 핵심 결과 중심으로 정리했습니다.</p>
+        </div>
+        <div id="projects-list" class="projects-grid"></div>
+      </section>
+
+      <section id="contact" class="panel reveal">
+        <h2 data-i18n="ui.sectionContact">연락</h2>
+        <p data-i18n="ui.contactLead">
+          아래 채널로 연락 주시면 24시간 내에 회신드리겠습니다.
+        </p>
+        <ul class="contact-list">
+          <li>
+            <span data-i18n="ui.contactEmail">이메일</span>
+            <a id="contact-email" href="mailto:hello@example.com">hello@example.com</a>
+          </li>
+          <li>
+            <span>GitHub</span>
+            <a id="contact-github" href="https://github.com/your-id" target="_blank" rel="noreferrer">
+              github.com/your-id
+            </a>
+          </li>
+          <li>
+            <span>LinkedIn</span>
+            <a
+              id="contact-linkedin"
+              href="https://www.linkedin.com/in/your-id"
+              target="_blank"
+              rel="noreferrer"
+            >
+              linkedin.com/in/your-id
+            </a>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="site-footer" data-i18n="ui.footer">
+      2026 Hong Gil-dong. Built for GitHub Pages.
+    </footer>
+
+    <script src="./content.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
