@@ -158,6 +158,12 @@ function updateContactLinks(lang) {
     linkedinNode.href = linkedin || "#";
     linkedinNode.textContent = linkedin ? linkedin.replace(/^https?:\/\//, "") : "-";
   }
+
+  document.querySelectorAll("[data-contact-item]").forEach((item) => {
+    const key = item.getAttribute("data-contact-item");
+    const value = key === "email" ? email : key === "github" ? github : linkedin;
+    item.hidden = !value;
+  });
 }
 
 function setActiveToggle(lang) {

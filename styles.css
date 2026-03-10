@@ -278,6 +278,10 @@ h2 {
   line-height: 1.72;
 }
 
+.about-copy {
+  white-space: pre-line;
+}
+
 .section-head {
   display: flex;
   flex-direction: column;
