@@ -1,7 +1,7 @@
 const CONTENT = {
   ko: {
     profile: {
-      name: "Hyunmoo",
+      name: "OH HYUNMOO",
       role: "HUFS Student | ESG · Sustainability · AI Agent",
       intro:
         "한국외국어대학교에서 경영, 기후, IT를 함께 공부하며 ESG와 지속가능경영, 그리고 AI Agent에 집중하고 있습니다.",
@@ -43,12 +43,12 @@ const CONTENT = {
       },
     ],
     contact: {
-      email: "",
+      email: "gusan1587@naver.com",
       github: "https://github.com/moddk777",
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/현무-오-41b150391",
     },
     ui: {
-      pageTitle: "Hyunmoo | Portfolio",
+      pageTitle: "OH HYUNMOO | Portfolio",
       eyebrow: "PORTFOLIO",
       navAbout: "소개",
       navExperience: "이력",
@@ -66,15 +66,15 @@ const CONTENT = {
       projectPeriod: "기간",
       projectTech: "키워드",
       projectLink: "프로젝트 페이지",
-      footer: "2026 Hyunmoo. Built for GitHub Pages.",
+      footer: "2026 OH HYUNMOO. Built for GitHub Pages.",
     },
   },
   en: {
     profile: {
-      name: "Hyunmoo",
+      name: "OH HYUNMOO",
       role: "HUFS Student | ESG · Sustainability · AI Agent",
       intro:
-        "I study business, climate, and technology at HUFS, with a growing focus on ESG, sustainable management, and AI agents.",
+        "I am OH HYUNMOO (OH is my family name). I study business, climate, and technology at HUFS, with a growing focus on ESG, sustainable management, and AI agents.",
     },
     about: {
       body:
@@ -113,12 +113,12 @@ const CONTENT = {
       },
     ],
     contact: {
-      email: "",
+      email: "gusan1587@naver.com",
       github: "https://github.com/moddk777",
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/현무-오-41b150391",
     },
     ui: {
-      pageTitle: "Hyunmoo | Portfolio",
+      pageTitle: "OH HYUNMOO | Portfolio",
       eyebrow: "PORTFOLIO",
       navAbout: "About",
       navExperience: "Journey",
@@ -136,7 +136,7 @@ const CONTENT = {
       projectPeriod: "Period",
       projectTech: "Keywords",
       projectLink: "Project Page",
-      footer: "2026 Hyunmoo. Built for GitHub Pages.",
+      footer: "2026 OH HYUNMOO. Built for GitHub Pages.",
     },
   },
 };
